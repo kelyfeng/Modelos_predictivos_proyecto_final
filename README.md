@@ -51,6 +51,8 @@ El proyecto utiliza el conjunto de datos **Telco Customer Churn** proveniente de
 
 Este dataset es ampliamente utilizado en la comunidad de ciencia de datos para analizar y predecir el abandono de clientes (**churn**) en empresas de servicios.
 
+---
+
 ### Estructura del proyecto
 
 1. **Preprocesamiento y limpieza:**  
