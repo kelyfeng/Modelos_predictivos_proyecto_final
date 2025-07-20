@@ -19,30 +19,37 @@ El churn representa uno de los mayores retos en la industria de telecomunicacion
 
 ---
 
-### Descripción del dataset
-Para este análisis se utiliza el dataset Telco Customer Churn de Kaggle, que contiene información real de más de 7,000 clientes de una compañía de telecomunicaciones. El conjunto de datos incluye:
 
-Variables numéricas:
+### Descripción del Dataset
 
-tenure (meses con la compañía)
+El proyecto utiliza el conjunto de datos **Telco Customer Churn** proveniente de [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn), que contiene información real de clientes de una empresa de telecomunicaciones.
 
-MonthlyCharges (cargo mensual)
+- **Observaciones:** 7,043 clientes
+- **Variables:** 21 columnas, incluyendo datos demográficos, de servicios y facturación
 
-TotalCharges (cargo total acumulado)
+### Principales variables
 
-Variables categóricas:
+- `gender`: Género del cliente (`Male`, `Female`)
+- `SeniorCitizen`: Si es adulto mayor (`1` = Sí, `0` = No)
+- `Partner`: Tiene pareja (`Yes`, `No`)
+- `Dependents`: Tiene dependientes (`Yes`, `No`)
+- `tenure`: Meses como cliente
+- `PhoneService`: Servicio telefónico (`Yes`, `No`)
+- `MultipleLines`: Líneas múltiples (`Yes`, `No`, `No phone service`)
+- `InternetService`: Tipo de Internet (`DSL`, `Fiber optic`, `No`)
+- `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`: Servicios adicionales (`Yes`, `No`, `No internet service`)
+- `Contract`: Tipo de contrato (`Month-to-month`, `One year`, `Two year`)
+- `PaperlessBilling`: Facturación electrónica (`Yes`, `No`)
+- `PaymentMethod`: Método de pago
+- `MonthlyCharges`: Cargo mensual (numérico)
+- `TotalCharges`: Cargo total acumulado (numérico)
+- `Churn`: **Variable objetivo**, indica si el cliente abandonó la compañía (`Yes`, `No`)
 
-Género
+> **Nota:**  
+> - Se eliminó la columna `customerID` por ser un identificador único y no aportar valor predictivo.
+> - Se corrigieron valores nulos y se ajustaron los tipos de datos para preparar el dataset al modelado.
 
-Tipo de contrato (mensual, anual, etc.)
-
-Servicios adicionales (Internet, seguridad, soporte técnico, etc.)
-
-Método de pago
-
-Presencia de dependientes, pareja, entre otras
-
-La variable objetivo es Churn, que indica si el cliente abandonó (Yes) o permaneció (No) en la compañía. Esta diversidad de variables convierte el dataset en un estándar de referencia para tareas de clasificación binaria y análisis de retención de clientes.
+Este dataset es ampliamente utilizado en la comunidad de ciencia de datos para analizar y predecir el abandono de clientes (**churn**) en empresas de servicios.
 
 ### Estructura del proyecto
 
