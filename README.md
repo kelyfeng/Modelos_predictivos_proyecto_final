@@ -2,7 +2,7 @@
 ## Análisis predictivo de la deserción de clientes en el sector de telecomunicaciones utilizando técnicas de aprendizaje automático<img width="468" height="37" alt="image" src="https://github.com/user-attachments/assets/46deaf4f-30a8-4bb1-90b8-a9f64098af07" />
 
 📚 Maestría en Analítica de Datos – Universidad Tecnológica de Panamá  
-📅 20 de Julio de 2025  
+📅 23 de julio de 2025  
 👩‍💻 Estudiante: Kely Feng  
 👨‍🏫 Profesor: Juan Marcos Castillo, PhD
 
@@ -20,7 +20,7 @@ El churn representa uno de los mayores retos en la industria de telecomunicacion
 ---
 
 
-### Descripción del Dataset
+### Descripción del dataset
 
 El proyecto utiliza el conjunto de datos **Telco Customer Churn** proveniente de [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn), que contiene información real de clientes de una empresa de telecomunicaciones.
 
